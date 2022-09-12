@@ -32,7 +32,7 @@
     <div class="wrapper">
         <h2>Nyheter</h2>
         <div class="news-grid">
-            <?= get_template_part('template-parts/postlatestnews'); ?>
+            <?= get_template_part('template-parts/post-latest-news'); ?>
         </div>
     </div>
 </div>

@@ -15,7 +15,7 @@ $page_for_posts = get_option('page_for_posts');
     if (have_posts()) :
         while (have_posts()) : the_post();
     ?>
-            <?= get_template_part('postblock'); ?>
+            <?= get_template_part('template-parts/post-template'); ?>
     <?php
         endwhile;
     endif;
