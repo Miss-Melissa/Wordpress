@@ -1,0 +1,344 @@
+/*
+Theme Name: Devsneakers!
+Author: Melissa Zarinnegar, WIE21
+Description: Devsneakers är ett märke som grundades år 1999, sprunget ur kärleken till och nyfikenheten på kulturen och livsstilen kring sneakers, mode, konst, musik och basket. Idag utgår Devsneakers från fyra grundpelare. 
+Version: 2022.4
+Requires at least: 5.2
+Tested up to: 5.9
+Requires PHP: 7.0
+License: GNU General Public License v3 or Later
+License URI: https://www.gnu.org/licenses/gpl.html
+Text Domain: devsneakers
+
+
+*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #373f41;
+}
+
+.page-content {
+  padding-bottom: 5%;
+}
+
+/* --- Header --- **/
+
+header {
+  display: flex;
+  background-color: rgb(241, 234, 234);
+  max-width: 100%;
+}
+
+.header-style {
+  display: flex;
+}
+
+.logo {
+  font-size: 15px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.logo-h3 {
+  margin-top: 3%;
+  margin-left: 5%;
+  color: #3c64b1;
+}
+
+ul#menu-menu {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 120%;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: grey;
+  font-weight: bold;
+}
+
+li.current-menu-item a {
+  color: #3c64b1;
+}
+
+/* --- Header --- **/
+
+
+/* --- Page Img --- **/
+
+page-content img {
+  max-width: 100%;
+}
+
+.page-block {
+  width: 100%;
+}
+
+.page-block-smallhero {
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.page-block-smallhero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.page-block img {
+  width: 100%;
+  height: auto;
+}
+
+h1.img-text {
+  position: relative;
+  text-align: center;
+  bottom: 234px;
+  color: white;
+}
+
+/* --- Page Img --- **/
+
+
+/* --- Page info --- **/
+
+.h2_style {
+  text-align: center;
+  margin: 2%;
+}
+
+.p_position {
+  display: flex;
+  justify-content: center;
+}
+
+.p-style {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  margin: 2%;
+  margin-bottom: 4%;
+}
+
+/* --- Page info --- **/
+
+
+/* --- Youtube Video --- **/
+
+.wp-block-embed {
+  display: flex;
+  justify-content: center;
+  margin: 6%;
+}
+
+.wp-block-embed__wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 90%;
+  height: 700px;
+}
+
+/* --- Youtube Video --- **/
+
+
+/* --- Button --- **/
+
+.wp-container-1.wp-block-buttons {
+  margin: 2%;
+  justify-content: center;
+}
+
+a.wp-block-button__link {
+  border-radius: 1%;
+  background-color: #3c64b1;
+    margin-bottom: 150px;
+}
+
+/* --- Button --- **/
+
+
+
+/* --- Card --- **/
+
+img.attachment-medium.size-medium.wp-post-image {
+  height: 200px;
+  width: 200px;
+}
+
+.news-title {
+  text-align: center;
+  margin: 8%;
+  font-size: 3rem;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.card {
+  max-width: 50%;
+  margin: 2%;
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.news-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+  }
+
+
+.newsp {
+  padding: 16px 16px;
+}
+
+.info_text {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10%;
+}
+
+.info_text_margin {
+  margin-top: 30%;
+}
+
+.margin-p{
+  margin-bottom: 7%;
+}
+
+.margin-h3{
+  margin-bottom: 7%;
+}
+
+/* --- Card --- **/
+
+
+/* --- Single page --- **/
+
+.single-page-content{
+  text-align: center;
+}
+
+.single-desc{
+margin-top: 10%;
+margin-bottom: 10%;
+
+}
+
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+  height: 400px;
+  width: 400px;
+}
+
+.push-page{
+  color: #3c64b1;
+  font-size: 12px;
+
+}
+
+.h2-title-post {
+  margin-top: 30%;
+  color: #373f41;
+  margin-bottom: 5%;
+}
+
+.post-block {
+  display: list-item;
+}
+
+.post-block img {
+  bottom: 8%;
+  position: relative;
+  bottom: 58%;
+}
+
+/* --- Single page --- **/
+
+
+/* --- Footer --- **/
+
+footer {
+  position: fixed;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #373f41;
+  text-align: center;
+}
+
+.footer-text-color {
+  color: white;
+}
+
+/* --- Footer --- **/
+
+
+/* --- Kontakt form --- **/
+
+.kontakt-form {
+    margin: 0 auto;
+    max-width: 700px;
+
+}
+
+h1.kontakt-page {
+  text-align: center;
+  padding: 33px;
+  margin-right: 100px;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #f3f6fa;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #f3f6fa;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+  width: 20%;
+  background-color:  #3c64b1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0 0 560px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* --- Kontakt form --- **/
